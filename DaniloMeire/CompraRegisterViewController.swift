@@ -40,7 +40,7 @@ class CompraRegisterViewController: UIViewController {
             estadoSelecionado = compra.estado
             if let image = compra.imagem as? UIImage {
                 ivFoto.image = image
-                btAddFoto.isHidden = true
+                btAddFoto.setTitle("", for: .normal)
             }
             btCadastrar.setTitle("Atualizar", for: .normal)
         }

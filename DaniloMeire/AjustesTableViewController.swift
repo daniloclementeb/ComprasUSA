@@ -116,7 +116,7 @@ class AjustesTableViewController: UIViewController {
         }
         alert.addAction(UIAlertAction(title: title, style: .default, handler: { (action: UIAlertAction) in
                 let estado = estado ?? Estado(context: self.context)
-                estado.imposto = Double((alert.textFields?[1].text)!)!
+                estado.imposto = Double((alert.textFields?[1].text?.replacingOccurrences(of: ",", with: "."))!)!
                 estado.nome = alert.textFields?.first?.text
                 do {
                     try self.context.save()

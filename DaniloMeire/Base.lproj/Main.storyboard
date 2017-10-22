@@ -419,7 +419,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXw-IC-dXU">
-                                <rect key="frame" x="84.5" y="136" width="153" height="150"/>
+                                <rect key="frame" x="11" y="136" width="300" height="150"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Adicionar Foto">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -449,6 +449,7 @@
                             <constraint firstAttribute="trailing" secondItem="xkX-42-Dpz" secondAttribute="trailing" constant="26" id="Cop-V1-eYE"/>
                             <constraint firstItem="NyE-rK-fOD" firstAttribute="top" secondItem="xkX-42-Dpz" secondAttribute="bottom" constant="19" id="GmU-dT-tTx"/>
                             <constraint firstItem="rXw-IC-dXU" firstAttribute="top" secondItem="NyE-rK-fOD" secondAttribute="top" id="Ijb-Ur-jVr"/>
+                            <constraint firstItem="rXw-IC-dXU" firstAttribute="trailing" secondItem="NyE-rK-fOD" secondAttribute="trailing" id="JSm-0N-iPP"/>
                             <constraint firstItem="NyE-rK-fOD" firstAttribute="leading" secondItem="fqM-O9-j9e" secondAttribute="leading" constant="11" id="KHm-gE-wLj"/>
                             <constraint firstItem="xkX-42-Dpz" firstAttribute="top" secondItem="XbI-7b-XEw" secondAttribute="bottom" constant="23" id="L5W-PS-GkO"/>
                             <constraint firstItem="rXw-IC-dXU" firstAttribute="centerX" secondItem="NyE-rK-fOD" secondAttribute="centerX" id="OqX-wq-saG"/>

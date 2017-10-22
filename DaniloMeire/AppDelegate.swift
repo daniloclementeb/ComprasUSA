@@ -19,15 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         return container
     }()
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        let appDefaults: [String: Any] = ["color": "Clean", "autoplay": true, "genre": "Drama"]
-        UserDefaults.standard.register(defaults: appDefaults)
-        
-        return true
-    }
-    
+
 
     
     func applicationWillResignActive(_ application: UIApplication) {
