@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AjustesTableViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:AjustesTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "estado!.nome">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AjustesTableViewController.(showAlert(type : EstadoType, estado : Estado?) -&gt; ()).(closure #3):AjustesTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "alert.textFields?.first?.text">
+            </PersistentString>
+            <PersistentString
+               value = "Double((alert.textFields?[1].text)!)!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
